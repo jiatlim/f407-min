@@ -1,0 +1,24 @@
+# Keil MDK 编译产物
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.dep
+*.build_log.htm
+
+# Keil 个人配置（窗口布局、调试器设置，换机器就乱，不要共享）
+*.uvguix.*
+*.uvoptx
+*.scvd
+JLinkLog.txt
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
